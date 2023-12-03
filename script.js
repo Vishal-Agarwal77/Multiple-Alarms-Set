@@ -24,6 +24,8 @@ start.addEventListener("click", () => {
     if ((!initialhr && initialhr != 0) || (!initialmin && initialmin != 0) || (!initialsecond && initialsecond != 0)) {
         return;
     }
+    let tempo=document.getElementById("tempo");
+    tempo.remove();
     let activetimer = document.createElement("div");
     activetimer.classList.add("active");
     activetimer.id = `timer-${each_id++}`;
