@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #1D1D23;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+    padding-top: 47px;
+}
+
+#head {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#timer-input {
+    border-radius: 20px;
+    background: #34344A;
+    width: 849px;
+    height: 132px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#timer-input span:nth-child(1) {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #34344A;
+}
+
+#timer-input span:nth-child(2) {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-decoration-line: underline; */
+    background: #34344A;
+}
+
+#timer-input span:nth-child(2)>span {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-decoration-line: underline; */
+    background: #34344A;
+}
+
+#timer-input button {
+    border-radius: 26px;
+    background: #F0F757;
+    width: 124px;
+    height: 52px;
+    border: none;
+    color: #34344A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#timer-input button:hover {
+    cursor: pointer;
+}
+
+#alarm {
+    border-radius: 50px;
+    background: #39393E;
+    width: 413px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#Active-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0px 50px 0px;
+}
+
+.active {
+    display: flex;
+    border-radius: 20px;
+    background: #34344A;
+    width: 849px;
+    height: 132px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.finish {
+    display: flex;
+    gap: 65px;
+    border-radius: 20px;
+    width: 849px;
+    height: 132px;
+    /* border-radius: 20px; */
+    background: #F0F757;
+    align-items: center;
+}
+
+.timesup {
+    background: #F0F757;;
+    padding-left: 271px;
+    color: #34344A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.stop {
+    border: none;
+    padding: 15px 43px;
+    border-radius: 26px;
+    background: #34344A;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.active span:nth-child(1) {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #34344A;
+}
+
+.active span:nth-child(2) {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-decoration-line: underline; */
+    background: #34344A;
+}
+
+.active span:nth-child(2)>span {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-decoration-line: underline; */
+    background: #34344A;
+}
+
+.active button {
+    border-radius: 26px;
+    background: #F0F757;
+    width: 124px;
+    height: 52px;
+    border: none;
+    color: #34344A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#Active-timers button:hover {
+    cursor: pointer;
+}
