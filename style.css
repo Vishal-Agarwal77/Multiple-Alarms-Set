@@ -34,6 +34,16 @@
     align-items: center;
 }
 
+#tempo {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 #timer-input span:nth-child(1) {
     color: #FFF;
     font-family: Roboto;
@@ -134,7 +144,8 @@
 }
 
 .timesup {
-    background: #F0F757;;
+    background: #F0F757;
+    ;
     padding-left: 271px;
     color: #34344A;
     text-align: center;
